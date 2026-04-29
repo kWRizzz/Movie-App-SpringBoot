@@ -13,6 +13,7 @@ public class MovieAppApplication {
 		SpringApplication.run(MovieAppApplication.class, args);
 	}
 
+//	gd2Ae4n1Ka9wZCR1 kbhargava120_db_user for future use
 	@GetMapping("/")
 	public String apiRoot(){
 		return "Hello World";
